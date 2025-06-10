@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd
+         http://java.sun.com/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+     <servlet>
+     	<servlet-name>SellerInsertServlet</servlet-name>
+     	<servlet-class>SellerPackage.SellerInsertServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>SellerInsertServlet</servlet-name>
+     	<url-pattern>/SellerInsertServlet</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>SellerProfileServlet</servlet-name>
+     	<servlet-class>SellerPackage.SellerProfileServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>SellerProfileServlet</servlet-name>
+     	<url-pattern>/SellerProfileServlet</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>LoginServlet</servlet-name>
+     	<servlet-class>SellerPackage.LoginServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>LoginServlet</servlet-name>
+     	<url-pattern>/LoginServlet</url-pattern>
+     </servlet-mapping>
+     
+	<servlet>
+     	<servlet-name>UpdateSellerServlet</servlet-name>
+     	<servlet-class>SellerPackage.UpdateSellerServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>UpdateSellerServlet</servlet-name>
+     	<url-pattern>/UpdateSellerServlet</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>DeleteSellerServlet</servlet-name>
+     	<servlet-class>SellerPackage.DeleteSellerServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>DeleteSellerServlet</servlet-name>
+     	<url-pattern>/DeleteSellerServlet</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>ViewSellersServlet</servlet-name>
+     	<servlet-class>SellerPackage.ViewSellersServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>ViewSellersServlet</servlet-name>
+     	<url-pattern>/ViewSellersServlet</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>DeleteSellerAdminPageServlet</servlet-name>
+     	<servlet-class>SellerPackage.DeleteSellerAdminPageServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>DeleteSellerAdminPageServlet</servlet-name>
+     	<url-pattern>/DeleteSellerAdminPageServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+
+	<!-- Admin package -->
+	<servlet>
+     	<servlet-name>AdminLoginServlet</servlet-name>
+     	<servlet-class>AdminPackage.AdminLoginServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>AdminLoginServlet</servlet-name>
+     	<url-pattern>/AdminLoginServlet</url-pattern>
+     </servlet-mapping>
+     
+     <!-- ############################################################################# -->
+     <!-- Seller Insert Item to table  -->
+     <servlet>
+     	<servlet-name>ItemInsertServlet</servlet-name>
+     	<servlet-class>ListItemPackage.ItemInsertServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>ItemInsertServlet</servlet-name>
+     	<url-pattern>/ItemInsertServlet</url-pattern>
+     </servlet-mapping>
+     
+     <!-- Displaying Item details in  -->
+     <servlet>
+     	<servlet-name>ItemDisplayServlet</servlet-name>
+     	<servlet-class>ListItemPackage.ItemDisplayServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>ItemDisplayServlet</servlet-name>
+     	<url-pattern>/ItemDisplayServlet</url-pattern>
+     </servlet-mapping>
+     
+	<!--Item edit(Update) Details -->
+     <servlet>
+     	<servlet-name>ItemEditServlet</servlet-name>
+     	<servlet-class>ListItemPackage.ItemEditServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>ItemEditServlet</servlet-name>
+     	<url-pattern>/ItemEditServlet</url-pattern>
+     </servlet-mapping>
+     
+     <!--Display all items -->
+     <servlet>
+     	<servlet-name>ItemAllDisplayServlet</servlet-name>
+     	<servlet-class>ListItemPackage.ItemAllDisplayServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>ItemAllDisplayServlet</servlet-name>
+     	<url-pattern>/ItemAllDisplayServlet</url-pattern>
+     </servlet-mapping>
+</web-app>
