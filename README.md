@@ -29,6 +29,6 @@ This is a web-based **Online Bidding System** developed as a **second-year, firs
 This project was collaboratively developed by 4 member team as part of our academic coursework. Contributions, feedback, and suggestions are welcome! 
 
 # Screenshots
-###Home Page
+### Home Page 
 
 ![image alt](https://github.com/isharaSIP/Online-Bidding-System/blob/e9fdff3d1d48435b5b507701d2fe40e69c9e89b8/OnlineBiddingSystem/src/main/webapp/images/Home%20page.png)
