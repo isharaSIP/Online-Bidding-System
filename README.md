@@ -32,3 +32,17 @@ This project was collaboratively developed by 4 member team as part of our acade
 ### Home Page 
 
 ![image alt](https://github.com/isharaSIP/Online-Bidding-System/blob/e9fdff3d1d48435b5b507701d2fe40e69c9e89b8/OnlineBiddingSystem/src/main/webapp/images/Home%20page.png)
+
+### Seller Dashboard
+
+![image alt](https://github.com/isharaSIP/Online-Bidding-System/blob/f01a10eafcb0274e375463d4f63f5e35af042c24/OnlineBiddingSystem/src/main/webapp/images/seller%20Dashboard.png)
+
+### Seller Listings
+
+![image alt](https://github.com/isharaSIP/Online-Bidding-System/blob/f01a10eafcb0274e375463d4f63f5e35af042c24/OnlineBiddingSystem/src/main/webapp/images/Listings.png)
+
+### Admin Dashboard - (Manage Sellers)
+
+![image alt](https://github.com/isharaSIP/Online-Bidding-System/blob/f01a10eafcb0274e375463d4f63f5e35af042c24/OnlineBiddingSystem/src/main/webapp/images/Admin%20dashboard%20-%20manage%20sellers.png)
+
+
